@@ -1,5 +1,6 @@
 package com.blazingmarimba.baconmod.items;
 
+import com.blazingmarimba.baconmod.creativetab.CreativeTabBM;
 import com.blazingmarimba.baconmod.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +13,7 @@ public class ItemBM extends Item
     public ItemBM()
     {
         super();
+        this.setCreativeTab(CreativeTabBM.BM_TAB);
 
     }
 

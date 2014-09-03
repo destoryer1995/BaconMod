@@ -1,2 +1,6 @@
+# Items
 item.baconmod:bacon.name=Bacon
 item.baconmod:belly.name=Pork Belly
+
+# Creative Tab
+itemGroup.baconmod=Bacon Mod

@@ -1,6 +1,7 @@
 package com.blazingmarimba.baconmod;
 
 import com.blazingmarimba.baconmod.handler.ConfigurationHandler;
+import com.blazingmarimba.baconmod.init.ModBlocks;
 import com.blazingmarimba.baconmod.init.ModItems;
 import com.blazingmarimba.baconmod.proxy.IProxy;
 import com.blazingmarimba.baconmod.reference.Reference;
@@ -27,6 +28,7 @@ public class BaconMod {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
         ModItems.init();
+        ModBlocks.init();
 
 
         LogHelper.info("Pre Initialization Complete!");

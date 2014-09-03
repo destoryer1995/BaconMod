@@ -1,6 +1,6 @@
 package com.blazingmarimba.baconmod.items;
 
-public class ItemBelly extends ItemMB
+public class ItemBelly extends ItemBM
 {
     public ItemBelly()
     {
