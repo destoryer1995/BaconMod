@@ -5,5 +5,6 @@ public class ItemBacon extends ItemMB
     public ItemBacon()
     {
         super();
+        this.setUnlocalizedName("bacon");
     }
 }
