@@ -18,8 +18,8 @@ buildscript {
 apply plugin: 'forge'
 
 version = "1.7.10-1.0"
-group= "com.BlazingMarimba.BaconMod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "BaconMod"
+group= "com.blazingmarimba.baconmod" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "baconmod"
 
 minecraft {
     version = "1.7.10-10.13.0.1180"
