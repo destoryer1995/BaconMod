@@ -18,7 +18,7 @@ public class BaconMod {
     @Mod.Instance("baconmod")
     public static BaconMod instance;
 
-    @SidedProxy(clientSide = Reference.Client_Proxy, serverSide = Reference.Server_Proxy)
+    @SidedProxy(clientSide = Reference.CLIENT_PROXY, serverSide = Reference.SERVER_PROXY)
     public static IProxy proxy;
 
     @Mod.EventHandler
