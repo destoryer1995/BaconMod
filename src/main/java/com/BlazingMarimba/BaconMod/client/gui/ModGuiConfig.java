@@ -1,7 +1,7 @@
-package com.BlazingMarimba.BaconMod.client.gui;
+package com.blazingmarimba.baconmod.client.gui;
 
-import com.BlazingMarimba.BaconMod.handler.ConfigurationHandler;
-import com.BlazingMarimba.BaconMod.reference.Reference;
+import com.blazingmarimba.baconmod.handler.ConfigurationHandler;
+import com.blazingmarimba.baconmod.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;

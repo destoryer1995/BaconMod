@@ -1,4 +1,4 @@
-package com.BlazingMarimba.BaconMod.client.gui;
+package com.blazingmarimba.baconmod.client.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

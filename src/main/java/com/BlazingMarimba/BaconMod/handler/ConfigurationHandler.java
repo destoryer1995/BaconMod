@@ -1,6 +1,6 @@
-package com.BlazingMarimba.BaconMod.handler;
+package com.blazingmarimba.baconmod.handler;
 
-import com.BlazingMarimba.BaconMod.reference.Reference;
+import com.blazingmarimba.baconmod.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;

@@ -1,9 +1,9 @@
-package com.BlazingMarimba.BaconMod;
+package com.blazingmarimba.baconmod;
 
-import com.BlazingMarimba.BaconMod.handler.ConfigurationHandler;
-import com.BlazingMarimba.BaconMod.proxy.IProxy;
-import com.BlazingMarimba.BaconMod.reference.Reference;
-import com.BlazingMarimba.BaconMod.utilty.LogHelper;
+import com.blazingmarimba.baconmod.handler.ConfigurationHandler;
+import com.blazingmarimba.baconmod.proxy.IProxy;
+import com.blazingmarimba.baconmod.reference.Reference;
+import com.blazingmarimba.baconmod.utilty.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -14,7 +14,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY)
 public class BaconMod {
 
-    @Mod.Instance("BaconMod")
+    @Mod.Instance("baconmod")
     public static BaconMod instance;
 
     @SidedProxy(clientSide = Reference.Client_Proxy, serverSide = Reference.Server_Proxy)
@@ -25,6 +25,8 @@ public class BaconMod {
     {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+
         LogHelper.info("Pre Initialization Complete!");
     }
 

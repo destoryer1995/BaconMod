@@ -1,6 +1,6 @@
-package com.BlazingMarimba.BaconMod.utilty;
+package com.blazingmarimba.baconmod.utilty;
 
-import com.BlazingMarimba.BaconMod.reference.Reference;
+import com.blazingmarimba.baconmod.reference.Reference;
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 

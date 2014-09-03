@@ -1,4 +1,4 @@
-package com.BlazingMarimba.BaconMod.proxy;
+package com.blazingmarimba.baconmod.proxy;
 
 
 public interface IProxy

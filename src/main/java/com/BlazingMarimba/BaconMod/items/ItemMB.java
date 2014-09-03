@@ -1,5 +1,10 @@
 package com.blazingmarimba.baconmod.items;
 
-public class ItemMB {
+import net.minecraft.item.Item;
 
+public class ItemMB extends Item {
+    public ItemMB()
+    {
+    super();
+    }
 }
