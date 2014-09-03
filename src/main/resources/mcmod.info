@@ -1,0 +1,21 @@
+[
+{
+"modid": "BaconMod",
+"name": "Bacon Mod",
+"description": "A mod that adds bacon, BACON!",
+"version": "1.0",
+"mcversion": "1.7.10",
+"url": "",
+"updateUrl": "",
+"authorList": [
+"destoryer1995"
+],
+"credits": "To who ever first made bacon",
+"logoFile": "",
+"screenshots": [
+],
+"parent":"",
+"dependencies": [
+]
+}
+]
